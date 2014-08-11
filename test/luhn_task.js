@@ -38,21 +38,4 @@ describe('Credit Card Validation', function(){
 		});
 	});
 
-	// describe('the Luhn algorithm', function(){
-
-	// 	it('should drop the last digit of the credit card number', function(){
-	// 		testCreditCardNumber = "4485705063868244";
-	// 		assert.equal(removeLastDigit(testCreditCardNumber), "448570506386824");
-	// 	});
-
-	// });
-
-	// describe('the isCreditCardNumberValid() method', function(){
-
-	// 	it('should take a credit card number, put it through all the Luhn-steps and yield the correct result', function(){
-	// 		testCreditCardNumber = "4556705936228745";
-	// 		assert.equal(isCreditCardNumberValid(testCreditCardNumber), true);
-	// 	});
-	// });
-
 });
