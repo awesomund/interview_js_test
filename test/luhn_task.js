@@ -11,8 +11,7 @@
 // Luhn algorithm:
 // 1. Drop the last digit from the number. The last digit is what we want to check against
 // 2. Reverse the numbers
-// 3. Multiply the digits in odd positions (1, 3, 5, etc.) by 2 and subtract 9 to any result higher than 9. Positions are not 0-indexed.
-//    Alternative description: multiply all even positioned digits by 2 and subtract 9 if the result is greater than 9. Positions are 0-indexed.
+// 3. Multiply all even-indexed digits (including 0) by 2 and subtract 9 if the result is greater than 9. Positions are 0-indexed.
 // 4. Add all the numbers together
 // 5. The check digit (the last number of the card) is the amount that you would need to add to get a multiple of 10 (Modulo 10)
 
