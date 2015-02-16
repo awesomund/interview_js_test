@@ -20,6 +20,10 @@ var assert = require("assert");
 
 var creditCardNumber = "4556705936228745";
 
+// for less headache during assignment:
+var reverseCreditCardNumber = '5478226395076554';
+var doubleEvenIndexedDigitsNumber = '8516501966427785';
+
 // input validation methods
 
 var isNotNull = function(creditCardNumber){
